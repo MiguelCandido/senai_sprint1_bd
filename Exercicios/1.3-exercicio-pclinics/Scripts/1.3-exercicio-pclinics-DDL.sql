@@ -52,6 +52,7 @@ idAtendimento INT PRIMARY KEY IDENTITY(1,1),
 idPet INT FOREIGN KEY REFERENCES pet(idPet),
 idFuncionario INT FOREIGN KEY REFERENCES veterinario(idFuncionario),
 dataAtendimento DATE NOT NULL,
-valorAtendimento MONEY NOT NULL
+valorAtendimento MONEY NOT NULL,
+descrição VARCHAR(50)
 );
 GO 

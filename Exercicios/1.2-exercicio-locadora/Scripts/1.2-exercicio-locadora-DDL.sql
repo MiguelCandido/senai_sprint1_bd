@@ -44,6 +44,8 @@ idAluguel INT PRIMARY KEY IDENTITY(1,1),
 idCliente INT FOREIGN KEY REFERENCES cliente(idCliente),
 idVeiculo INT FOREIGN KEY REFERENCES veiculo(idVeiculo),
 dataValidade DATE NOT NULL,
+dataRetirada DATE NOT NULL,
 valorAluguel MONEY NOT NULL 
 );
 GO 
+
