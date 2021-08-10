@@ -10,6 +10,7 @@ VALUES ('Chevrolet'), ('Honda');
 INSERT INTO modelo(idMarca,nomeModelo)
 VALUES (1, 'Opala diplomata'), (2, 'PCX 150');
 
+
 INSERT INTO veiculo(idEmpresa,idModelo,tipoVeiculo,placaVeiculo)
 VALUES (1,2,'moto','BOY1234'), (2,1,'carro','MCB2901');
 

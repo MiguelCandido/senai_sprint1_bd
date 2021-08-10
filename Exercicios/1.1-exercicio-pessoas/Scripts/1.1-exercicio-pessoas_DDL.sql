@@ -1,4 +1,3 @@
-
 CREATE DATABASE Unidas;
 GO 
 
