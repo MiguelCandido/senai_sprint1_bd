@@ -1,9 +1,0 @@
-	A modelagem conceitual do projeto começa com o personagem, numa relação de N : 1 com as classes, já que muitos (N) personagens podem possuir uma (1) única classe.
-	Prosseguindo, as classes têm uma relação de N : N com as habilidades, já que muitas classes podem possuir uma ou mais habilidades, que não são exclusivas. 
-	Por último, as habilidades apresentam uma relação N : 1 com os tipos de habilidade, já que cada habilidade pode ter apenas um tipo, e existe espaço para a adição de outras habilidades no futuro.
-
-	A modelagem lógica inicia-se também com os personagens, que apresentam a chave primária de ID e uma chave estrangeira vinda da tabela de classes, há também os atributos de nome, vida máxima, mana máxima, data de atualização e data de criação.
-	Seguindo, a tabela de classes apresenta sua chave primária de ID e um atributo de nome da classe.
-	Como a tabela 'Classes' e a tabela 'Habilidades' se interligam de forma N : N, é necessária uma tabela intermediária entre as duas. A tabela Classes-Habilidade apresenta uma chave primária de ID, bem como duas chaves estrangeiras, os IDs da tabela de classes e os IDs da tabela de habilidades. 
-	Posteriormente há a tabela de habilidades, com uma chave primária de ID e uma chave secundária dos IDs da tabela 'Tipo de Habilidade'. Na tabela de habilidade há também os atributos de nome da habilidade e uma pequena descrição da habilidade.
-	Finalizando, a tabela de Tipos de habilidades contém uma chave primária de ID e um atributo de nome do tipo.
